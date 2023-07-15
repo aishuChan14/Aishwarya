@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/19619ce6f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Aishwarya</span><br />Choudhari From India</h1>
+        </div>
+      </div>
+    </div>
+    <!--About-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I am Aishwarya Rameshrao Choudhari. Recent B.tech(CSE) pass
+              out from shri Guru Gobind Singhji Institute of Engineering and
+              Technology, Nanded. web developer with a passion for creating
+              elegant and functional websites. Skilled in front-end and back-end
+              development, I specialize in building dynamic, responsive, and
+              user-friendly web applications. With a strong foundation in HTML,
+              CSS, and JavaScript, I leverage frameworks like React to deliver
+              seamless user experiences.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Languages</span><br />C, C++, Python, DSA</li>
+                <li>
+                  <span>Web Development</span><br />HTML, CSS, Bootstap,
+                  JavaScript, React, MySQL
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web Development Intern</span><br />Corizo, Noida<br />Jan
+                  2023-May 2023
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>B.Tech</span><br />SGGSI&T,Nanded<br />CGPA: 7.67</li>
+                <li>
+                  <span>HSC</span><br />G.B.M.M.Jr. College, Hinganghat<br />Aggregate:
+                  65.23%
+                </li>
+                <li>
+                  <span>SSC</span><br />S.S.M. Vidyalaya, Hinganghat<br />Aggregate:
+                  88.40%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque sunt dolor commodi dolorem ex alias maiores impedit
+              enim repellendus laudantium. Placeat facilis aut odio ipsum
+              blanditiis sint vel pariatur laudantium.
+            </p>
+            <a href="#">See More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>Front End Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque sunt dolor commodi dolorem ex alias maiores impedit
+              enim repellendus laudantium. Placeat facilis aut odio ipsum
+              blanditiis sint vel pariatur laudantium.
+            </p>
+            <a href="#">See More</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-video"></i>
+            <h2>Video Editing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque sunt dolor commodi dolorem ex alias maiores impedit
+              enim repellendus laudantium. Placeat facilis aut odio ipsum
+              blanditiis sint vel pariatur laudantium.
+            </p>
+            <a href="#">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Portfolio-->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Project1.png" />
+            <div class="layer">
+              <h3>Student Managment System</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quidem, vel fuga, maiores eligendi et rem, autem iure
+                praesentium quis eveniet nihil esse quod. Praesentium quas
+                beatae, quasi explicabo nulla magnam?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project2.jpg" />
+            <div class="layer">
+              <h3>Credit Card Fraud Detection</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quidem, vel fuga, maiores eligendi et rem, autem iure
+                praesentium quis eveniet nihil esse quod. Praesentium quas
+                beatae, quasi explicabo nulla magnam?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project3.jpg" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quidem, vel fuga, maiores eligendi et rem, autem iure
+                praesentium quis eveniet nihil esse quod. Praesentium quas
+                beatae, quasi explicabo nulla magnam?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!--Contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i> aishuchoudhari16@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +91-8329744027</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/aishwaryachoudhari5a357123a/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://instagram.com/lost_illusion_ap?igshid=MzRlODBiNWFlZA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="https://github.com/aishuChan14"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+            <a
+              href="images/Aishwarya_Choudhari_2023.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Aishwarya choudhari 2023</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwqu24XO6hPRKPvvMEswUKwH0HhL0oRKQvBdtyThP-h1XUSooWQIwTyDMHf-5jYP-c5/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
